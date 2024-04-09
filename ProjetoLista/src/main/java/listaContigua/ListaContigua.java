@@ -31,8 +31,7 @@ public class ListaContigua {
     }
     
     public Item getItem(int pos){
-        if(pos < 0 || pos > this.vetorItem.length-1)
-            return null;
+        if(pos < 0 || pos > this.vetorItem.length-1) return null;
         
         return this.vetorItem[pos];
     }

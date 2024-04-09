@@ -31,6 +31,6 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item{" + "codigo=" + codigo + ", nome=" + nome + '}';
+        return "Item{" + "codigo= " + codigo + ", nome= " + nome + '}';
     }
 }
